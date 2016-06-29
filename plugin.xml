@@ -26,8 +26,13 @@
     <framework src="com.google.android.gms:play-services-plus:8.3.0" />
     <framework src="com.google.android.gms:play-services-ads:8.3.0" />
 -->
+<!--
     <framework src="com.google.android.gms:play-services-games:9.0.2" />
     <framework src="com.google.android.gms:play-services-plus:9.0.2" />
     <framework src="com.google.android.gms:play-services-ads:9.0.2" />	
+-->    
+    <framework src="com.google.android.gms:play-services-games" />
+    <framework src="com.google.android.gms:play-services-plus" />
+    <framework src="com.google.android.gms:play-services-ads" />
   </platform>
 </plugin>
