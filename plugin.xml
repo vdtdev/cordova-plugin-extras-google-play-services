@@ -31,8 +31,12 @@
     <framework src="com.google.android.gms:play-services-plus:9.0.2" />
     <framework src="com.google.android.gms:play-services-ads:9.0.2" />
 -->    
-    <framework src="com.google.android.gms:play-services-games:+" />
+    <!-- <framework src="com.google.android.gms:play-services-games:+" />
     <framework src="com.google.android.gms:play-services-plus:+" />
-    <framework src="com.google.android.gms:play-services-ads:+" />
+    <framework src="com.google.android.gms:play-services-ads:+" /> -->
+    <!-- Target 10.2.1 for build compatibility with Android SDK 24+ -->
+    <framework src="com.google.android.gms:play-services-games:10.2.1" />
+    <framework src="com.google.android.gms:play-services-plus:10.2.1" />
+    <framework src="com.google.android.gms:play-services-ads:10.2.1" />
   </platform>
 </plugin>
